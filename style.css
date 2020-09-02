@@ -1,0 +1,70 @@
+* {
+    font-family: 'Mansalva', cursive;
+}
+
+.head {
+    text-align: center;
+    margin-top: 4%;
+}
+
+h1 {
+    font-size: 4.5rem!important;
+    color: #FFA500;
+}
+
+
+.box
+{
+    height: 100px;
+    width: 100px;
+    border: 6px solid #2c3e50;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 3em;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    background-color: #34495e;
+    color: #FFA500;
+    position: relative;
+    vertical-align: top;
+}
+
+#disabled {
+    pointer-events: none;
+    text-align: center;
+}
+
+
+.win {
+    color: #00ab66;
+}
+
+.select {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+
+.select button {
+    background-color:  #FFA500;
+    color: #2c3e50;
+    font-size: 2rem;
+    font-weight: bolder;
+    height: 50px;
+    width: 150px;
+    border-radius: 15px;
+    box-shadow: none;
+    border-style: solid;
+}
+
+.select button:focus {outline:0;}
+
+#hide {
+    display: none;
+}
+
+#field {
+    text-align: center;
+}
